@@ -22,7 +22,7 @@ Click on start button to fill only name & email field:
 ![Alt text](priv/static/images/user_screen_ss.png?raw=true "User Information")
 
 Click on Submit and questions start to appear one by one on screen:
-![Alt text](priv/static/images/user_screen_ss.png?raw=true "Questions")
+![Alt text](priv/static/images/questioning_ss.png?raw=true "Questions")
 
 User can go navigate back to previous question easily to answer the question again.
 
