@@ -39,7 +39,7 @@ Further Details About Files:
 - Request to get scoreCredits against points in `lib/credit_approval/approval_client.ex`
 
 Although the application does not yet support databases, but its structure of entities can be readily copied to create migrations.
-So let's go through each entity to understand the structure. The current structure was created with the idea that the application owner might add more questions and change them. Owner would have also change the types of answers for existing ones, such as strings, booleans, and integers, in the future.
+So let's go through each entity to understand the structure. The current structure was created with the idea that the application owner might add more questions and change them in future. Owner can change the types of answers of questions for existing ones, such as strings, booleans, and integers, in the future. (Some questions can have numeric answers or some question can have boolean values etc)
 It has a question entity with both a description and the type of answer. The field `answer type: float` in the object of a question is present if the expected answer is a float value. Each question must be displayed at the appropriate stage where it occurs. To ensure the sequence of the questions on the form, an index key is also present.
 
 Second entity represent the `User` and third entity is for `User Answers` which will hold question_id, user_id and answer with its value type.
