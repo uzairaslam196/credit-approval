@@ -1,0 +1,77 @@
+.flex-container{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.label{
+    display: flex;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.hidden{
+    display: none;
+}
+
+.label-s-1{
+    margin-left: 5px;
+    font-weight: 40px;
+}
+
+.main{
+    font-weight: 200;
+}
+
+.f-w-4{
+    font-weight: 400;
+}
+
+.button-font-color{
+    color: white;
+}
+
+.h-300{
+    height: 450px;
+}
+
+.w-600{
+    width: 600px;
+}
+
+.btn{
+    cursor: pointer;
+    font-weight: 10px;
+    padding: 10px;
+}
+
+.btns{
+    display: flex; 
+    justify-content:space-around;
+    margin-top: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.q-heading{
+    margin-left: 500px;
+}
+
+
+.msg{
+    padding-top: 20px;
+    border-top: 1px rgb(211, 110, 110) solid;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+.danger{
+    color: red;
+    font-size: large;
+    font-weight: 500;
+}
