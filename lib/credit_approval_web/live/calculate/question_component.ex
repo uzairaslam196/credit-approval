@@ -56,6 +56,7 @@ defmodule CreditApprovalWeb.Live.QuestionComponent do
 
     socket
     |> assign(:question, question)
+    |> assign(:stage, 1)
     |> then(& assign(&1, :user_answers,
       Enum.reject(assigns.user_answers, fn answer ->
         answer

@@ -28,7 +28,7 @@ defmodule CreditApproval.UserAnswer do
     |> Float.parse()
     |> case do
       {float, ""} when float > 0 -> changeset
-      _ -> add_error(changeset, :answer, "must be positive number")
+      _ -> add_error(changeset, :answer, "must be greater than 0")
     end
   end
 
